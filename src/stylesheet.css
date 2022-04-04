@@ -1,12 +1,15 @@
-html {
+html, body{
+  height: 100%;
+}
+
+body {
   background-image: url("images/site_back.jpeg");
   background-color: #1d546d;
-  /* height: 100vh; */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw, 100vh;
+  background-size: 160%;
   background-attachment: fixed;
-  background-position-y: 85px;
+  background-position-y: 5px;
 }
 
 body {
@@ -40,12 +43,11 @@ p{
 }
 
 .index-pics {
-  margin-right: 64px;
   margin-top: 30px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .index-img {
@@ -79,12 +81,13 @@ nav {
   margin-bottom: 0;
 }
 
-nav .head-image {
+nav .head-logo {
   height: 60px;
   width: 60px;
-  position: relative;
-  right: 20px;
-  border-radius: 46%;
+  border-radius: 44%;
+}
+nav .head-link {
+  margin-right: 20px;
 }
 
 .nav-options {
@@ -180,5 +183,9 @@ footer {
   text-align: center;
   text-decoration: none;
   color: white;
+}
+
+.whatsapp{
+  color: rgb(36, 179, 55);
 }
 
