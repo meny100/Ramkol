@@ -34,3 +34,13 @@ for(let i = 0; i < indexImage.length; i++) {
         indexImage[i].style.position = "static";
     })
 }
+
+
+const hamburgerButton = document.getElementById('hamburger')
+const navOptions = document.getElementById('nav-options')
+
+function toggleButton() {
+    navOptions.classList.toggle('show')
+}
+
+hamburgerButton.addEventListener('click', toggleButton)

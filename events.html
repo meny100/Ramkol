@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="he">
   <head>
-    <title>Ramkol-Live</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/stylesheet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -20,26 +22,30 @@
       href="src/images/ramkol_logo-modified.png"
       type="image/icon type"
     />
+    <title>Ramkol-Live</title>
   </head>
 
   <body dir="rtl">
     <nav>
-        <a class="head-link" href="./index.html"
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      <a class="head-link" href="./index.html"
         ><img class="head-logo" src="./src/images/ramkol_logo.jpg"
       /></a>
-      <div class="nav-options">
-        <a href="./index.html">מה זה הרמקול?</a>
-        <a href="./events.html">ארועים</a>
-        <a
+      <ul class="nav-options" id="nav-options">
+        <li><a href="./index.html">מה זה הרמקול?</a></li>
+        <li><a href="./events.html">ארועים</a></li>
+        <li><a
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSfJ_smHAfJ5YFvAAUs6TwWABouWTYDDi3pIAXSqtudyLkL7_A/viewform"
           >הרשמה למאגר האמנים</a
         >
-      </div>
+      </ul></li>
     </nav>
-    <main>
-      <div class="events">
-        <div class="date">ארועים</div>
+    <main class="main">
+      <div class="description">
+        <h1>ארועים</h1>
         <p>
           מה מחכה לנו? מתחם עם פינת זולה מטורפת עם מחצלות, ספסלים , תפאורה
           משוגעת , צלם מקצועי ומתחם הופעות! <br />
@@ -66,7 +72,7 @@
           </ul>
         </div>
       </div>
-      <!-- links fixed to the right -->
+      <!-- social links, fixed to the right -->
       <div class="social-links">
         <a
           target="_blank"
@@ -89,28 +95,32 @@
       </div>
     </main>
     <footer>
-        <div class="contact-info">
-            <h2>צור קשר!</h2>
-            <p>
-              <a href="tel:053-5345432">גלעד: 053-5345432 <i class="fas fa-phone"></i></a>
-              •
-              <a href="tel:054-2786543">רותם: 054-2786543 <i class="fas fa-phone"></i></a>
-            </p>
-              <p>
-              <a
-                class="whatsapp"
-                target="_blank"
-                href="https://wa.me/+972523755320"
-                ><span class="whatsapp"><i class="fab fa-whatsapp"></i> Whatsapp me</span></a
-              >
-            </p>
-            <p>
-              <a target="_blank" href="mailto:ramkolive@gmail.com"
-                ><i class="fa fa-envelope" aria-hidden="true"></i>
-                ramkolive@gmail.com</a
-              >
-            </p>
-          </div>
-      </footer>
+      <div class="contact-info">
+        <h2>צור קשר!</h2>
+        <p>
+          <a href="tel:053-5345432"
+            >גלעד: 053-5345432 <i class="fas fa-phone"></i
+          ></a>
+          •
+          <a href="tel:054-2786543"
+            >רותם: 054-2786543 <i class="fas fa-phone"></i
+          ></a>
+        </p>
+        <p>
+          <a class="whatsapp" target="_blank" href="https://wa.me/+972523755320"
+            ><span class="whatsapp"
+              ><i class="fab fa-whatsapp"></i> Whatsapp me</span
+            ></a
+          >
+        </p>
+        <p>
+          <a target="_blank" href="mailto:ramkolive@gmail.com"
+            ><i class="fa fa-envelope" aria-hidden="true"></i>
+            ramkolive@gmail.com</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
+  <script src="src/myScript.js"></script>
 </html>
