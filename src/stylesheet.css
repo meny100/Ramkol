@@ -171,6 +171,9 @@ footer {
   color: white;
   font-size: 20px;
 }
+.contact-info .inline{
+  display: inline-block;
+}
 
 .whatsapp {
   color: #25d366;
@@ -240,9 +243,8 @@ footer {
     width: 44px;
   }
 
-  .contact-info p a{
+  .contact-info .inline{
     display: block;
-    margin-top: 16px;
   }
 
   .hidden-small{
