@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0;
+  width: 100%;
   text-align: center;
   color: white;
   font-family: "Fredoka", sans-serif;
@@ -31,7 +32,7 @@ body {
 }
 
 img {
-  width: 400px;
+  width: 350px;
 }
 
 a {
@@ -40,8 +41,9 @@ a {
 
 .description {
   text-align: center;
-  width: 450px;
+  max-width: 450px;
   margin: auto;
+  padding: 10px;
 }
 
 .description p {
@@ -218,6 +220,21 @@ footer {
 
   .main {
     margin-right: 64px;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  .social-links {
+    right: 10px;
+    bottom: 40px;
+    width: 50px;
+  }
+  
+  .social-links img {
+    height: 48px;
+    width: 48px;
   }
 
   body {
