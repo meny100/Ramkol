@@ -8,7 +8,7 @@ for(let i = 0; i < indexImage.length; i++) {
     indexImage[i].addEventListener('click', function() {
         overlay.classList.remove('hidden');
         indexImage[i].style.width = "50%";
-        indexImage[i].style.zIndex = "10";
+        indexImage[i].style.zIndex = "11";
         indexImage[i].style.position = "fixed";
         indexImage[i].style.bottom = "10%";
     })

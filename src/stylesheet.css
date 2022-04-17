@@ -109,7 +109,7 @@ nav a:hover {
 .index-img {
   height: 100px;
   width: 200px;
-  border-left: 1px white solid;
+  margin-left: 1px;
 }
 
 .overlay {
@@ -186,7 +186,7 @@ footer {
 @media only screen and (max-width: 760px) {
   .hamburger {
     display: block;
-    font-size: 5vh;
+    font-size: 32px;
     border: 0;
     background-color: transparent;
     color: white;
@@ -194,13 +194,13 @@ footer {
     margin-top: 15px;
     align-self: flex-start;
   }
-  
-    nav {
-      height: 60px;
-      display: flex;
-      flex-direction: column;
-      background-color: #224;
-    }
+
+  nav {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #224;
+  }
 
   .nav-options,
   .head-link {
@@ -224,7 +224,7 @@ footer {
     margin-top: 50px;
   }
 
-  .description{
+  .description {
     margin-right: 48px;
   }
 
@@ -237,17 +237,17 @@ footer {
     bottom: 40px;
     width: 46px;
   }
-  
+
   .social-links img {
     height: 44px;
     width: 44px;
   }
 
-  .contact-info .inline{
+  .contact-info .inline {
     display: block;
   }
 
-  .hidden-small{
+  .hidden-small {
     display: none;
   }
 
